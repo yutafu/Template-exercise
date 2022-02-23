@@ -96,6 +96,7 @@ header .apg {
 }
 .qgc {
   width: 100%;
+  height: 100%;
 }
 .addc {
   list-style: none;
@@ -112,18 +113,28 @@ header .apg {
 .darna-icon-box {
   position: relative;
 }
+.darna-icon-box.style4.one{
+  padding-bottom: 108px;
+}
+.higgt{
+  height: 100%;
+}
 .darna-icon-box i {
+  position: absolute;
   border: 5px solid #666;
   width: 60px;
   height: 60px;
   background-color: #666;
   border-radius: 50%;
-  position: absolute;
   margin: 90px;
   padding-left: 17px;
   font-size: 38px;
   line-height: 61px;
   color: #ffffff;
+  left: 33%;
+}
+.text-top{
+  margin-bottom: -80px;
 }
 .darna-icon-box p {
   margin: 0 0 0 100px;
