@@ -1,0 +1,76 @@
+*{
+	 margin:0; 
+	 padding:0;
+	}
+
+	body{
+		width: 100%;
+	}
+html{ height:100%} /*兼容firefox的div高度100%*/ 
+#left{ position:absolute; top:0; left:0; width:200px; height:100%; background-color:#CCCCCC} 
+#right{ margin-left:200px; height:100%; background-color:#0099FF} 
+
+#header{
+	background-color: #ccc;
+}
+.clearfix {
+	 zoom: 1; 
+	}
+
+.clearfix:after {
+	 visibility: hidden;
+	  display: block; 
+	  font-size: 0; 
+	  content: " "; 
+	  clear: both; 
+	  height: 0; 
+	}
+
+.conter{
+	text-align: center;
+		content: ”;
+		display: block;
+		clear: both;
+}
+.col-4,.col-6{
+	padding: 0;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+	float: left;
+}
+.col-4 {
+    width: 32%;
+}
+.clcaree{
+	clear: both;
+}
+#content>div {
+	padding-top: 100px;
+}
+.webcage{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 150px 150px 150px;
+	gap: 20px;
+}
+.cgc{
+	background: #0099FF;
+}
+.cac{
+	background: orange;
+}
+.cbc{
+	background: greenyellow;
+}
+.ong{
+	margin-right: 2%;
+}
+.two{
+	margin-right: 2%;
+}
+.sam>img{
+	width: 100%;
+}
